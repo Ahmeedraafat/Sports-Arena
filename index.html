@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Arena</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="booking.css"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <script src="file.js" defer></script>
+
+</head>
+<body>
+
+    
+
+    <header class="site-header">
+        <div class="container">
+            <!-- Left: Logo -->
+            <a class="logo" href="index.html">
+            <div class="logo-mark" aria-hidden>
+            <!-- simple soccer icon made with SVG -->
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="30" fill="white" opacity="0.12" />
+            <path d="M32 10 L39 22 L53 24 L42 34 L45 48 L32 40 L19 48 L22 34 L11 24 L25 22 Z" fill="white" opacity="0.95"/>
+            </svg>
+        </div>
+        <div>
+            <div class="logo-tex" >ٍSports Arena</div>
+            <div class="logo-sub">Football Booking</div>
+        </div>
+        </a>
+
+        <!-- Center title -->
+        <div class="brand-center">
+        <p>Booking courts - fast and secure</p>
+        </div>
+
+
+        <!-- Right: actions -->
+        <div class="actions">
+        <button class="btn">تواصل</button>
+        <button class="btn primary"><a href="html.html">احجز الان</a></button>
+        </div>
+        </div>
+    </header>
+
+
+    <!-- Optional hero strip under header -->
+    <section class="hero">
+        <div class="hero-left">
+        <h2>ملعبك المفضل على بعد نقرة واحدة</h2>
+        <p>ابحث عن الملاعب المتاحة، اختر التوقيت، وادفع بسهولة — كل ذلك عبر موقع Sports Arena.</p>
+        </div>
+        <div class="hero-right">
+        <div class="court-thumb">Football • Tennis • Basketball</div>
+        </div>
+    </section>
+
+    
+        <div class="containerr">
+          <div id="slide" style="border-radius: 30px;">
+              <div class="item" style="background-image: url(d5.jpg);">
+                  <div class="content">
+                      <div class="name">SPORTS ARENA,</div>
+                      <div class="des">Welcome to SPORTS ARENA
+                        <br>
+                        your favorite site to choose your trip</div>
+                  </div>
+              </div>
+              <div class="item" style="background-image: url(a10.jpg);">
+                  <div class="content">
+                      <div class="name">SPORTS ARENA,</div>
+                      <div class="des">Welcome to SPORTS ARENA
+                        <br>
+                        your favorite site to choose your trip</div>
+                  </div>
+              </div>
+              <div class="item" style="background-image: url(s3.jpeg);">
+                  <div class="content">
+                      <div class="name">SPORTS ARENA,</div>
+                      <div class="des">Welcome to SPORTS ARENA
+                        <br>
+                        your favorite site to choose your trip</div>
+                  </div>
+              </div>
+              <div class="item" style="background-image: url(a9.jpg);">
+                  <div class="content">
+                      <div class="name">SPORTS ARENA,</div>
+                      <div class="des">Welcome to SPORTS ARENA
+                        <br>
+                        your favorite site to choose your trip</div>
+                  </div>
+              </div>
+
+              <div class="item" style="background-image: url(d9.jpg);">
+                  <div class="content">
+                      <div class="name">SPORTS ARENA,</div>
+                      <div class="des">Welcome to SPORTS ARENA
+                        <br>
+                        your favorite site to choose your trip</div>
+                  </div>
+            </div>
+
+          </div>
+          <div class="buttons">
+              <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+              <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+      </div>
+  
+
+    <script src="script.js"></script>
+
+       <!-- Swiper JS -->
+       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+ 
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+  
+          },
+          480: {
+            slidesPerView: 2,
+  
+  
+          },
+          768: {
+            slidesPerView: 3,
+  
+          },
+          1024: {
+            slidesPerView: 4,
+  
+          },
+        },
+      });
+    </script>
+
+     <div class="book-card" role="region" aria-label="Booking box">
+    <div class="title-3d">Book Now</div>
+    <div class="sub">احجز ملعبك بضغطة واحدة</div>
+
+    <div class="btn-wrap" style="position:relative;">
+      <button class="btn-3d"><a href="html.html">Booking Now</a></button>
+      <div class="glow" aria-hidden="true"></div>
+    </div>
+  </div>
+
+    <footer>
+    <div class="logo-text">Sports Arena</div>
+    <div class="icons">
+      <a href="https://web.facebook.com/?locale=ar_AR&_rdc=1&_rdr#"><img src="F2.png" class="nis" ></a>
+      <a href="https://www.instagram.com/"><img src="f3.webp" class="nis" ></a>
+      <a href="https://www.tiktok.com/"><img src="f4.webp" class="nis" ></a>
+    </div>
+    
+  </footer>
+
+</body>
+</html>
+
+
+
